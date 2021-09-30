@@ -1,0 +1,147 @@
+﻿/*transport nav bar*/
+
+.tr_sidebar {
+    width: 100%;
+    height: 100%;
+    background: #766c6c;
+}
+
+    .tr_sidebar header {
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        line-height: 70px;
+        background: #454343;
+        user-select: none;
+    }
+
+    .tr_sidebar ul {
+        list-style-type: none;
+    }
+
+        .tr_sidebar ul a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            line-height: 50px;
+            font-size: 14px;
+            color: white;
+            padding-left: 0px;
+            box-sizing: border-box;
+            border-top: 1px solid rgba(255,255,255,.1);
+            border-bottom: 1px solid black;
+            transition: .4s;
+        }
+
+ul li:hover a {
+    padding-left: 50px;
+}
+
+.tr_sidebar ul a i {
+    margin-right: 16px;
+}
+
+.note {
+    font-size: 12px;
+}
+
+
+.trButHead {
+    font-size: 15px;
+}
+/**/
+.transportH5 {
+    font-size: 20px;
+}
+
+
+/*image card in insert update page*/
+.cardbackground {
+    background-color: #dadeea;
+}
+
+/*image card in Homepage*/
+.cardbackgroundHome {
+    background-color: #cbd3ff;
+}
+
+.cardbackgroundHome2 {
+    background-color: #fecaca;
+}
+
+/*Transport Home
+Tr_transport_home_body
+*/
+
+.tr_container {
+    border: 5px red solid;
+}
+
+.tr_mycol {
+    border: 5px green solid;
+}
+
+
+
+/*
+Transport Home
+Tr_transport_home_body
+
+*/
+.tr_home_img {
+    width: 250px;
+    height: 250px;
+}
+
+
+
+/*
+Transportations
+Tr_Transportations side image
+*/
+
+/*tr_insert_Transportations*/
+
+.form_text {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.tr_Insertbackground {
+    background-color: #204c62;
+}
+
+.tr_insert label {
+    color: white;
+}
+
+.tr_insert h5 {
+    color: aquamarine;
+}
+
+.tr_insert h3 {
+    color: aquamarine;
+}
+
+.tr_cardColor {
+    background-color: #042331;
+}
+
+.tr_padding {
+    padding-top: 10px;
+}
+
+.tr_insert_img {
+    width: 100%;
+    height: 650px;
+}
+
+
+.tr_textbox {
+    background-color: #204c62;
+    color: black;
+}
+
+    .tr_textbox:focus {
+        background-color: #3b6a81;
+    }

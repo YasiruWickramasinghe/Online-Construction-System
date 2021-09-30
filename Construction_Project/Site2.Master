@@ -1,0 +1,179 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Construction_Project.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 45%;
+            height: 160px;
+            background-color: #00FFCC;
+        }
+        .auto-style2 {
+            width: 106px;
+        }
+        .auto-style3 {
+            width: 179px;
+        }
+        .auto-style5 {
+            width: 179px;
+            text-align: center;
+        }
+        .auto-style6 {
+            width: 106px;
+            text-align: center;
+        }
+        .auto-style7 {
+            text-align: center;
+            width: 228px;
+        }
+        .auto-style9 {
+            margin-left: 4px;
+        }
+        .auto-style10 {
+            width: 181px;
+            text-align: center;
+        }
+        .auto-style11 {
+            width: 181px;
+        }
+        .auto-style12 {
+            width: 228px;
+        }
+    </style>
+    <title> ICC MANAGEMENT WEB</title>
+
+    <%--bootstrap css--%>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <%--datatables css--%>
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+    <%--fontawsome css--%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+
+
+     <%--*******************************Hashini's missed css file ask for that--********************%>
+      <%--customcss--%>
+    <link href="css/Customstylesheet.css" rel="stylesheet" />
+
+
+    <!--Transport Css-->
+    <link href="css/Transport_StyleSheet.css" rel="stylesheet" />
+
+
+    <!--Financial Manager-->
+
+    <link href="MyCSS/financialCSS.css" rel="stylesheet" />
+
+
+    <%--jquery js--%>
+    <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <%--popper js--%>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <%--bootstrap js--%>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+     <%--Database Tables.js--%>
+    <script src="datatables/js/jquery.dataTables.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+
+   <form id="form1" runat="server">
+        <div>
+
+            <nav class =" navbar-expand-1g navbar-light"> 
+               <a class="navbar-brand" href="#"> 
+                   <img src="imgs/icc-newlogo.png"  width="500" height="100"/>
+               </a>
+
+              <a class="navbar-brand" href="#">
+                  <img src="imgs/new-profile.png"  width="50" height="50" "/>
+                  <asp:LinkButton ID="LinkButton7" runat="server" PostBackUrl="~/EmployeeProfile.aspx">PROFILE</asp:LinkButton>
+              </a>
+
+               <nav class="navbar navbar-expand-lg " style="background-color:#00BFFF;">
+
+  <a class="navbar-brand" href="#"></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size:x-large; background-color:#000000; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="Cus_homepage.aspx" style="color:#ffffff;">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:#ffffff;">AboutUs</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:#ffffff;">ContactUs</a>
+     </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Cus_category.aspx" style="color:#ffffff;">Projects</a>
+      </li>
+
+    </ul>
+
+    <ul class="navbar-nav">
+          <li class="nav-item active">
+            <asp:LinkButton class="nav-link" ID="LinkButton2" runat="server" style="color:#ffffff;" OnClick="LinkButton2_Click">LogOut</asp:LinkButton>
+          </li>
+     </ul>
+
+
+    
+  </div>
+</nav>
+</div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!---footer--->
+        <footer>
+            <div id="footer1"class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton3" runat="server">About Us</asp:LinkButton>
+                             <asp:LinkButton class="footerlinks" ID="LinkButton4" runat="server">Contact Us</asp:LinkButton>
+                             <asp:LinkButton class="footerlinks" ID="LinkButton5" runat="server">Terms</asp:LinkButton>
+                             <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server">Privacy</asp:LinkButton>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="footer2" class="container-fluid">
+                <div class="row">
+
+                    <div class="col-xs-12-col-sm-12 col-md-12 text-center">
+
+                             <p> &copy CopyRight Company 2020;All Rights Reserved.</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+              
+        </footer>
+
+    </form>
+
+</body>
+</html>

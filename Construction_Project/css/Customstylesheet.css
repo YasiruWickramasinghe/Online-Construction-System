@@ -1,0 +1,35 @@
+
+.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #808080;
+    }
+
+#footer1 {
+    background: #000000;
+}
+
+#footer2 {
+    color: #ffffff;
+    background: #000000;
+}
+
+.nav-link {
+    color: #ffd800;
+}
+
+    .nav-link:hover {
+        color: #808080;
+    }
+
+d-block {
+    border-left-width: thick;
+}
+
+.btn btn-primary{
+    height:inherit;
+    font:200;
+}

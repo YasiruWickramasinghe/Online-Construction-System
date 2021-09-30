@@ -1,0 +1,120 @@
+﻿
+ 
+
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.left_area h3 {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.FM_text {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.left_area span {
+    color: #19B3D3;
+}
+
+.logout_btn {
+    padding: 5px;
+    background: #19B3D3;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+    .logout_btn:hover {
+        background: #0B87A6;
+    }
+
+.sidebar {
+    background: #b0c8d9;
+    padding-top: 30px;
+    position: relative;
+    margin-left: 0;
+    padding-left: 0px;
+    width: 250px;
+    height: 110vh;
+}
+
+    .sidebar .profile_image {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin-bottom: 10px;
+    }
+
+    .sidebar h4 {
+        color: #2d373d;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .sidebar a {
+        color: #1b1c1c;
+        display: block;
+        width: 100%;
+        line-height: 60px;
+        text-decoration: none;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+
+        .sidebar a:hover {
+            background: #028aa5;
+        }
+
+    .sidebar i {
+        padding-right: 10px;
+    }
+
+#ui {
+    background-color: #dbd1ff;
+    padding: 30px;
+    margin-top: 60px;
+    margin-bottom: auto;
+    border-radius: 20px;
+    box-shadow: 20px -20px 20px #2f323a;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+    #ui label {
+        color: #191a1c;
+    }
+
+h1 {
+    color: rgb(0, 119, 255);
+}
+
+.content {
+    background-image: url("MyCSS/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#card1 {
+    margin-top: 150px;
+    margin-left: auto;
+}
+
+
+
